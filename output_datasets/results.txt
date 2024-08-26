@@ -1,0 +1,700 @@
+------------------------------
+(Artifact Removal)
+------------------------------
+Percentage artifacts overall in EEG data: 3.91%
+Percentage in first 1550 time samples: 75.03%
+First 1550 data points removed
+New stimulus times created
+New data file saved to output_datasets/
+------------------------------
+
+
+
+------------------------------
+(VEP Analysis)
+------------------------------
+VEP analysis performed on cleaned and trimmed data.
+Results saved to output_datasets/average_channel_vep/
+------------------------------
+
+
+
+------------------------------
+(VEP Extraction - Channels 10)
+------------------------------
+Channel 1: True VEPs = 120, False VEPs = 90
+Channel 2: True VEPs = 120, False VEPs = 89
+Channel 3: True VEPs = 120, False VEPs = 89
+Channel 4: True VEPs = 120, False VEPs = 98
+Channel 5: True VEPs = 120, False VEPs = 96
+Channel 6: True VEPs = 120, False VEPs = 98
+Channel 7: True VEPs = 120, False VEPs = 89
+Channel 8: True VEPs = 120, False VEPs = 96
+Channel 9: True VEPs = 120, False VEPs = 90
+Channel 10: True VEPs = 120, False VEPs = 85
+==============================
+Overall VEP Extraction Results
+==============================
+Total True VEPs: 1200
+Total False VEPs: 920
+==============================
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+Epoch 1, Loss: 0.6728911113064244
+Epoch 2, Loss: 0.6435588609497502
+Epoch 3, Loss: 0.6071015562651292
+Epoch 4, Loss: 0.5503626533274381
+Epoch 5, Loss: 0.5056089192347707
+Epoch 6, Loss: 0.42517768816565565
+Epoch 7, Loss: 0.33214780140035555
+Epoch 8, Loss: 0.2876598260734441
+Epoch 9, Loss: 0.22915550844989857
+Epoch 10, Loss: 0.17688873150157478
+Epoch 11, Loss: 0.125757654469882
+Epoch 12, Loss: 0.14474888933154773
+Epoch 13, Loss: 0.08252985220630916
+Epoch 14, Loss: 0.08718438016444023
+Epoch 15, Loss: 0.05934980085760987
+Epoch 16, Loss: 0.0884408458676365
+Epoch 17, Loss: 0.05487839131888424
+Epoch 18, Loss: 0.04705928519745972
+Epoch 19, Loss: 0.05987657296563551
+Epoch 20, Loss: 0.09819762725196339
+Evaluation Results: Accuracy = 95.16509433962264%, False Positives = 31, False Negatives = 10
+Model saved to models/model_0.pth
+------------------------------
+Identification Model Created
+Model saved to: models/model_0.pth
+Preliminary Evaluation Accuracy: 95.16509433962264%
+------------------------------
+
+------------------------------
+Model 0 Evaluation
+Model Path: models/model_0.pth
+Total Dataset Results:
+  Accuracy: 97.87735849056604%
+  False Positives: 76
+  False Negatives: 14
+  True Positives: 2386
+  True Negatives: 1764
+  Positive Decision Accuracy: 96.91307879772543%
+  Negative Decision Accuracy: 99.21259842519684%
+------------------------------
+------------------------------
+Unaugmented Dataset Results:
+------------------------------
+------------------------------
+  Accuracy: 97.87735849056604%
+  False Positives: 38
+  False Negatives: 7
+  True Positives: 1193
+  True Negatives: 882
+  Positive Decision Accuracy: 96.91307879772543%
+  Negative Decision Accuracy: 99.21259842519684%
+------------------------------
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+Epoch 1, Loss: 0.6768640870193265
+Epoch 2, Loss: 0.6435745791444238
+Epoch 3, Loss: 0.6128715071475731
+Epoch 4, Loss: 0.5710097492303489
+Epoch 5, Loss: 0.4902937932396835
+Epoch 6, Loss: 0.40638582000754914
+Epoch 7, Loss: 0.34090919145997967
+Epoch 8, Loss: 0.2683617018584935
+Epoch 9, Loss: 0.21026017636341868
+Epoch 10, Loss: 0.13768671857157969
+Epoch 11, Loss: 0.13460626560351197
+Epoch 12, Loss: 0.1332755433834808
+Epoch 13, Loss: 0.07895578443125453
+Epoch 14, Loss: 0.13015809856390334
+Epoch 15, Loss: 0.06492762469229693
+Epoch 16, Loss: 0.05715556484141897
+Epoch 17, Loss: 0.04627157520406159
+Epoch 18, Loss: 0.040152386639196916
+Epoch 19, Loss: 0.06042980586446576
+Epoch 20, Loss: 0.04101654552120961
+Evaluation Results: Accuracy = 95.87264150943396%, False Positives = 16, False Negatives = 19
+Model saved to models/model_1.pth
+------------------------------
+Identification Model Created
+Model saved to: models/model_1.pth
+Preliminary Evaluation Accuracy: 95.87264150943396%
+------------------------------
+
+------------------------------
+Model 1 Evaluation
+Model Path: models/model_1.pth
+Total Dataset Results:
+  Accuracy: 99.00943396226415%
+  False Positives: 21
+  False Negatives: 21
+  True Positives: 2379
+  True Negatives: 1819
+  Positive Decision Accuracy: 99.125%
+  Negative Decision Accuracy: 98.8586956521739%
+Unaugmented Dataset Results:
+  Accuracy: 98.82075471698113%
+  False Positives: 12
+  False Negatives: 13
+  True Positives: 1187
+  True Negatives: 908
+  Positive Decision Accuracy: 98.99916597164304%
+  Negative Decision Accuracy: 98.58849077090119%
+------------------------------
+
+------------------------------
+Model 0 Evaluation
+Model Path: models/model_0.pth
+Total Dataset Results:
+  Accuracy: 97.68867924528301%
+  False Positives: 77
+  False Negatives: 21
+  True Positives: 2379
+  True Negatives: 1763
+  Positive Decision Accuracy: 96.86482084690553%
+  Negative Decision Accuracy: 98.82286995515695%
+Unaugmented Dataset Results:
+  Accuracy: 97.87735849056604%
+  False Positives: 38
+  False Negatives: 7
+  True Positives: 1193
+  True Negatives: 882
+  Positive Decision Accuracy: 96.91307879772543%
+  Negative Decision Accuracy: 99.21259842519684%
+------------------------------
+
+------------------------------
+Random Signal Generation
+------------------------------
+Generated 1000 random true signals and 1000 random false signals.
+------------------------------
+
+------------------------------
+Noise Signal Generation
+------------------------------
+True Signals Processed: 1200
+Noise Signals Generated: 3600
+Noise Signals File: output_datasets/augmented_training_data/noise_signals.json
+------------------------------
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+Epoch 1, Loss: 0.6738329906508608
+Epoch 2, Loss: 0.6348730022052549
+Epoch 3, Loss: 0.6078546227149244
+Epoch 4, Loss: 0.5653585819703228
+Epoch 5, Loss: 0.5000500459716005
+Epoch 6, Loss: 0.4431567760008686
+Epoch 7, Loss: 0.3668673739961858
+Epoch 8, Loss: 0.2866051641978183
+Epoch 9, Loss: 0.24262916528672543
+Epoch 10, Loss: 0.19162220177504252
+Epoch 11, Loss: 0.15793485382466382
+Epoch 12, Loss: 0.13514971824468308
+Epoch 13, Loss: 0.10761674273899703
+Epoch 14, Loss: 0.09315986770978373
+Epoch 15, Loss: 0.06136090908076544
+Epoch 16, Loss: 0.07176933229575812
+Epoch 17, Loss: 0.06829152852659254
+Epoch 18, Loss: 0.056587819730476385
+Epoch 19, Loss: 0.032402338158066896
+Epoch 20, Loss: 0.048085640644476714
+Evaluation Results: Accuracy = 95.51886792452831%, False Positives = 21, False Negatives = 17
+Model saved to models/model_2.pth
+------------------------------
+Identification Model Created
+Model saved to: models/model_2.pth
+Preliminary Evaluation Accuracy: 95.51886792452831%
+------------------------------
+
+------------------------------
+Model 1 Evaluation
+Model Path: models/model_1.pth
+Total Dataset Results:
+  Accuracy: 98.67924528301887%
+  False Positives: 26
+  False Negatives: 30
+  True Positives: 2370
+  True Negatives: 1814
+  Positive Decision Accuracy: 98.91485809682804%
+  Negative Decision Accuracy: 98.37310195227765%
+Unaugmented Dataset Results:
+  Accuracy: 98.82075471698113%
+  False Positives: 12
+  False Negatives: 13
+  True Positives: 1187
+  True Negatives: 908
+  Positive Decision Accuracy: 98.99916597164304%
+  Negative Decision Accuracy: 98.58849077090119%
+------------------------------
+
+------------------------------
+Noise Signal Generation
+------------------------------
+True Signals Processed: 1200
+Noise Signals Generated: 3600
+Noise Signals File: output_datasets/augmented_training_data/noise_signals.json
+------------------------------
+
+------------------------------
+Model 1 Evaluation on Augmented Data
+Model Path: models/model_1.pth
+Total Dataset Results:
+  Accuracy: 98.67924528301887%
+  False Positives: 26
+  False Negatives: 30
+  True Positives: 2370
+  True Negatives: 1814
+  Positive Decision Accuracy: 98.91485809682804%
+  Negative Decision Accuracy: 98.37310195227765%
+Unaugmented Dataset Results:
+  Accuracy: 98.82075471698113%
+  False Positives: 12
+  False Negatives: 13
+  True Positives: 1187
+  True Negatives: 908
+  Positive Decision Accuracy: 98.99916597164304%
+  Negative Decision Accuracy: 98.58849077090119%
+------------------------------
+
+------------------------------
+Model 1 Evaluation on Augmented Data
+Model Path: models/model_1.pth
+Total Dataset Results:
+  Accuracy: 98.67924528301887%
+  False Positives: 26
+  False Negatives: 30
+  True Positives: 2370
+  True Negatives: 1814
+  Positive Decision Accuracy: 98.91485809682804%
+  Negative Decision Accuracy: 98.37310195227765%
+Unaugmented Dataset Results:
+  Accuracy: 98.82075471698113%
+  False Positives: 12
+  False Negatives: 13
+  True Positives: 1187
+  True Negatives: 908
+  Positive Decision Accuracy: 98.99916597164304%
+  Negative Decision Accuracy: 98.58849077090119%
+------------------------------
+
+------------------------------
+Model 1 Evaluation on Random Noise Data
+Model Path: models/model_1.pth
+Noise Dataset Results:
+  Accuracy: 31.47222222222222%
+  False Positives: 2467
+  False Negatives: 0
+  True Positives: 0
+  True Negatives: 1133
+  Positive Decision Accuracy: 0.0%
+  Negative Decision Accuracy: 100.0%
+------------------------------
+
+------------------------------
+Noise Signal Generation
+------------------------------
+True Signals Processed: 1200
+Noise Signals Generated: 3600
+Noise Signals File: output_datasets/augmented_training_data/noise_signals.json
+------------------------------
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+------------------------------
+Noise Signal Generation
+------------------------------
+True Signals Processed: 1200
+Noise Signals Generated: 3600
+Noise Signals File: output_datasets/augmented_training_data/noise_signals.json
+------------------------------
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+Epoch 1, Loss: 0.34248641552008746
+Epoch 2, Loss: 27.154182050870435
+Epoch 3, Loss: 27.164769438303768
+Epoch 4, Loss: 27.18321917808219
+Epoch 5, Loss: 27.164119041129336
+Epoch 6, Loss: 27.171034007311956
+Epoch 7, Loss: 27.16752805666292
+Epoch 8, Loss: 27.176419436659444
+Epoch 9, Loss: 8.439127015308
+Epoch 10, Loss: 27.18057940255098
+Epoch 11, Loss: 27.18321917808219
+Epoch 12, Loss: 27.167847898997127
+Epoch 13, Loss: 27.17919139774967
+Epoch 14, Loss: 27.168949771689498
+Epoch 15, Loss: 14.591017698052474
+Epoch 16, Loss: 0.43182729855362206
+Epoch 17, Loss: 4.0013183276203526
+Epoch 18, Loss: 27.143949830913208
+Epoch 19, Loss: 14.071459737513315
+Epoch 20, Loss: 1.116098456181608
+Evaluation Results: Accuracy = 41.62735849056604%, False Positives = 0, False Negatives = 495
+Model saved to models/model_3.pth
+------------------------------
+Identification Model Created
+Model saved to: models/model_3.pth
+Preliminary Evaluation Accuracy: 41.62735849056604%
+------------------------------
+
+------------------------------
+Model 3 Evaluation on Augmented Data
+Model Path: models/model_3.pth
+Total Dataset Results:
+  Accuracy: 43.39622641509434%
+  False Positives: 0
+  False Negatives: 2400
+  True Positives: 0
+  True Negatives: 1840
+  Positive Decision Accuracy: 0%
+  Negative Decision Accuracy: 43.39622641509434%
+Unaugmented Dataset Results:
+  Accuracy: 43.39622641509434%
+  False Positives: 0
+  False Negatives: 1200
+  True Positives: 0
+  True Negatives: 920
+  Positive Decision Accuracy: 0%
+  Negative Decision Accuracy: 43.39622641509434%
+------------------------------
+
+------------------------------
+------------------------------
+Model 3 Evaluation on Random Noise Data
+Model Path: models/model_3.pth
+Noise Dataset Results:
+  Accuracy: 100.0%
+  False Positives: 0
+  True Negatives: 3600
+------------------------------
+------------------------------
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+Epoch 1, Loss: 0.3543862358228871
+Epoch 2, Loss: 0.4392648748447481
+Epoch 3, Loss: 0.32959885223923874
+Epoch 4, Loss: 0.2587673830981558
+Epoch 5, Loss: 0.246354144534094
+Epoch 6, Loss: 0.22209621447255568
+Epoch 7, Loss: 0.2152727664525798
+Epoch 8, Loss: 0.2017842862441031
+Epoch 9, Loss: 0.18146246873525487
+Epoch 10, Loss: 0.16631269967492449
+Epoch 11, Loss: 0.15750441062369464
+Epoch 12, Loss: 0.1601079042519228
+Epoch 13, Loss: 0.14379796082573595
+Epoch 14, Loss: 0.12639356601956847
+Epoch 15, Loss: 0.11458701627316467
+Epoch 16, Loss: 0.1058341652697189
+Epoch 17, Loss: 0.10465232755040105
+Epoch 18, Loss: 0.10764292026864014
+Epoch 19, Loss: 0.10750651046892515
+Epoch 20, Loss: 0.09240087036806102
+Evaluation Results: Accuracy = 86.91037735849056%, False Positives = 35, False Negatives = 76
+Model saved to models/RNN_noise/model_0.pth
+------------------------------
+Identification Model Created
+Model saved to: models/RNN_noise/model_0.pth
+Preliminary Evaluation Accuracy: 86.91037735849056%
+------------------------------
+
+------------------------------
+Model 0 Evaluation on Augmented Data
+Model Path: models/CNN_no_noise/model_0.pth
+Total Dataset Results:
+  Accuracy: 97.61792452830188%
+  False Positives: 85
+  False Negatives: 16
+  True Positives: 2384
+  True Negatives: 1755
+  Positive Decision Accuracy: 96.55731065208586%
+  Negative Decision Accuracy: 99.09655561829474%
+Unaugmented Dataset Results:
+  Accuracy: 97.87735849056604%
+  False Positives: 38
+  False Negatives: 7
+  True Positives: 1193
+  True Negatives: 882
+  Positive Decision Accuracy: 96.91307879772543%
+  Negative Decision Accuracy: 99.21259842519684%
+------------------------------
+
+------------------------------
+------------------------------
+Model 0 Evaluation on Random Noise Data
+Model Path: models/CNN_no_noise/model_0.pth
+Noise Dataset Results:
+  Accuracy: 63.97222222222222%
+  False Positives: 1297
+  True Negatives: 2303
+------------------------------
+------------------------------
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+Epoch 1, Loss: 0.36364808022141437
+Epoch 2, Loss: 0.698462358616411
+Epoch 3, Loss: 0.6766079739553452
+Epoch 4, Loss: 0.722635690915889
+Epoch 5, Loss: 0.7035096059805824
+Epoch 6, Loss: 0.8642759238748245
+Epoch 7, Loss: 0.5466260657258774
+Epoch 8, Loss: 0.6586714014166447
+Epoch 9, Loss: 0.6967595796947066
+Epoch 10, Loss: 0.7382014026380566
+Epoch 11, Loss: 0.6034243414391122
+Epoch 12, Loss: 0.5961159222746548
+Epoch 13, Loss: 0.5922901697082606
+Epoch 14, Loss: 0.5903807467521598
+Epoch 15, Loss: 0.5903544396025949
+Epoch 16, Loss: 0.5899300127541094
+Epoch 17, Loss: 0.5894897433176433
+Epoch 18, Loss: 0.5890501578376718
+Epoch 19, Loss: 0.5901054628363483
+Epoch 20, Loss: 0.5888481551109384
+Evaluation Results: Accuracy = 41.62735849056604%, False Positives = 0, False Negatives = 495
+Model saved to models/CNN_RNN_noise/model_0.pth
+------------------------------
+Identification Model Created
+Model saved to: models/CNN_RNN_noise/model_0.pth
+Preliminary Evaluation Accuracy: 41.62735849056604%
+------------------------------
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+Epoch 1, Loss: 0.36150855416938965
+Epoch 2, Loss: 0.7460979899234599
+Epoch 3, Loss: 0.7895333910750046
+Epoch 4, Loss: 0.6886337009872141
+Epoch 5, Loss: 0.6663932831505166
+Epoch 6, Loss: 0.6497375446979858
+Epoch 7, Loss: 0.7129247800604394
+Epoch 8, Loss: 0.6993946659646623
+Epoch 9, Loss: 0.6002378194299463
+Epoch 10, Loss: 0.6168924542866885
+Epoch 11, Loss: 0.6338191827223317
+Epoch 12, Loss: 0.777204029636296
+Epoch 13, Loss: 0.5146992217970493
+Epoch 14, Loss: 0.6748406852268056
+Epoch 15, Loss: 0.6905027558542278
+Epoch 16, Loss: 0.6423085790518757
+Epoch 17, Loss: 0.5931712335919681
+Epoch 18, Loss: 0.5900661837836924
+Epoch 19, Loss: 0.5887989201774336
+Epoch 20, Loss: 0.5908175742245156
+Epoch 21, Loss: 0.5541222211841035
+Epoch 22, Loss: 0.6345045908128835
+Epoch 23, Loss: 0.590619817308095
+Epoch 24, Loss: 0.5886393905230308
+Epoch 25, Loss: 0.588054068692743
+Epoch 26, Loss: 0.5876085449299312
+Epoch 27, Loss: 0.5875453371979874
+Epoch 28, Loss: 0.5873264686702049
+Epoch 29, Loss: 0.5874139633897233
+Epoch 30, Loss: 0.5871282988759481
+Epoch 31, Loss: 0.5869896448638341
+Epoch 32, Loss: 0.4794699187618021
+Epoch 33, Loss: 0.5263933492869474
+Epoch 34, Loss: 0.7647430386445294
+Epoch 35, Loss: 0.5142308468228742
+Epoch 36, Loss: 0.6520642737207347
+Epoch 37, Loss: 0.5928812924109094
+Epoch 38, Loss: 0.540128966240578
+Epoch 39, Loss: 0.71573411397738
+Epoch 40, Loss: 0.5891532774113085
+Epoch 41, Loss: 0.5895481958781204
+Epoch 42, Loss: 0.5883925516311437
+Epoch 43, Loss: 0.587999305496477
+Epoch 44, Loss: 0.587797320052369
+Epoch 45, Loss: 0.5876833272579054
+Epoch 46, Loss: 0.5876078163379947
+Epoch 47, Loss: 0.5875024738377088
+Epoch 48, Loss: 0.587432473897934
+Epoch 49, Loss: 0.5874182473034619
+Epoch 50, Loss: 0.5873605110873915
+Epoch 51, Loss: 0.5873342240782089
+Epoch 52, Loss: 0.5872911804070756
+Epoch 53, Loss: 0.5872655934122599
+Epoch 54, Loss: 0.5872632745466276
+Epoch 55, Loss: 0.587226767382121
+Epoch 56, Loss: 0.5872171391907348
+Epoch 57, Loss: 0.5872244864838309
+Epoch 58, Loss: 0.587192353456532
+Epoch 59, Loss: 0.5872148665935482
+Epoch 60, Loss: 0.5871782868964487
+Epoch 61, Loss: 0.587180675845168
+Epoch 62, Loss: 0.587147432375172
+Epoch 63, Loss: 0.587171930156342
+Epoch 64, Loss: 0.5871685389514383
+Epoch 65, Loss: 0.5871837490225491
+Epoch 66, Loss: 0.5871683613622569
+Epoch 67, Loss: 0.5871892116929842
+Epoch 68, Loss: 0.5871677325196463
+Epoch 69, Loss: 0.5872021993817804
+Epoch 70, Loss: 0.5854514607283623
+Epoch 71, Loss: 0.45416073496631965
+Epoch 72, Loss: 0.7815484085113233
+Epoch 73, Loss: 0.6857246729728955
+Epoch 74, Loss: 0.8296878125569592
+Epoch 75, Loss: 0.4809404624061639
+Epoch 76, Loss: 0.8392240726240149
+Epoch 77, Loss: 0.5192255194141576
+Epoch 78, Loss: 0.6061336871780897
+Epoch 79, Loss: 0.6300294830646689
+Epoch 80, Loss: 0.448650665776315
+Evaluation Results: Accuracy = 41.62735849056604%, False Positives = 0, False Negatives = 495
+Model saved to models/CNN_RNN_noise/model_1.pth
+------------------------------
+Identification Model Created
+Model saved to: models/CNN_RNN_noise/model_1.pth
+Preliminary Evaluation Accuracy: 41.62735849056604%
+------------------------------
+
+------------------------------
+Model 0 Evaluation on Augmented Data
+Model Path: models/CNN_no_noise/model_0.pth
+Total Dataset Results:
+  Accuracy: 97.57075471698113%
+  False Positives: 84
+  False Negatives: 19
+  True Positives: 2381
+  True Negatives: 1756
+  Positive Decision Accuracy: 96.5922920892495%
+  Negative Decision Accuracy: 98.92957746478874%
+Unaugmented Dataset Results:
+  Accuracy: 97.87735849056604%
+  False Positives: 38
+  False Negatives: 7
+  True Positives: 1193
+  True Negatives: 882
+  Positive Decision Accuracy: 96.91307879772543%
+  Negative Decision Accuracy: 99.21259842519684%
+------------------------------
+
+------------------------------
+------------------------------
+Model 0 Evaluation on Random Noise Data
+Model Path: models/CNN_no_noise/model_0.pth
+Noise Dataset Results:
+  Accuracy: 63.97222222222222%
+  False Positives: 1297
+  True Negatives: 2303
+------------------------------
+------------------------------
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+Generator Model saved to models/generators/diffusion/model_0.pth
+------------------------------
+Generator Model Created
+Model saved to: models/generators/diffusion/model_0.pth
+Generated signals saved to: output_datasets/generated_data/generated_signals.json
+------------------------------
+
+------------------------------
+Augmented Training Data Creation
+------------------------------
+Real True VEPs: 1200, Real False VEPs: 920
+Augmented True VEPs: 1200, Augmented False VEPs: 920
+------------------------------
+
+Generator Model saved to models/generators/diffusion/model_1.pth
+------------------------------
+Generator Model Created
+Model saved to: models/generators/diffusion/model_1.pth
+Generated signals saved to: output_datasets/generated_data/generated_signals.json
+------------------------------
+
